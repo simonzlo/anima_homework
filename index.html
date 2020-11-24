@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+    .emoji {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+      background: url("images/emoji_1.png");
+      animation: spin 2s infinite;
+    }
+    .emoji-e {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_1.png");
+      background-position: -640px top;
+      animation: blink 2s steps(1) alternate infinite;
+    }
+    .emoji-m {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_1.png");
+      background-position: -160px top;
+      animation: emoji 2s steps(1) alternate infinite;
+    }
+
+    /* ************************************************************************************************** */
+
+    .emoji2 {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+      background: url("images/emoji_2.png");
+      animation: spin 7s infinite;
+    }
+    .emoji2-e {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_2.png");
+      background-position: -640px top;
+      animation: emoji 2s steps(1) alternate infinite;
+    }
+    .emoji2-m {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_2.png");
+      background-position: -160px top;
+      animation: blink 2s steps(1) alternate infinite;
+    }
+
+    /* ************************************************************************************************** */
+
+    .emoji3 {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+      background: url("images/emoji_3.png");
+      animation: spin 5s infinite;
+    }
+    .emoji3-e {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_3.png");
+      background-position: -640px top;
+      animation: emoji 2s steps(1) alternate infinite;
+    }
+    .emoji3-m {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_3.png");
+      background-position: -160px top;
+      animation: blink 2s steps(1) alternate infinite;
+    }
+
+    /* ************************************************************************************************** */
+
+    .emoji4 {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+      background: url("images/emoji_4.png");
+      animation: spin 1s infinite;
+    }
+    .emoji4-e {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_4.png");
+      background-position: -640px top;
+      animation: emoji 2s steps(1) alternate infinite;
+    }
+    .emoji4-m {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: relative;
+      left: 0;
+      top: 0;
+      background: url("images/emoji_4.png");
+      background-position: -160px top;
+      animation: blink 2s steps(1) alternate infinite;
+    }
+    /* ************************************************************************************************** */
+
+    @keyframes emoji {
+      0% {background-position: -160px top;}
+      20% {background-position: -320px top;}
+      40% {background-position: -480px top;}
+      60% {background-position: -640px top;}
+    }
+
+    @keyframes blink {
+      0% {background-position: -800px top;}
+      20% {background-position: -960px top;}
+      40% {background-position: -1120px top;}
+      60% {background-position: -1280px top;}
+    }
+
+    @keyframes spin {
+      0%{transform: rotate(360deg);}
+      100%{transform: rotate(0deg);}
+    }
+
+
+
+    </style>
+  </head>
+
+  <body>
+
+     <div class="emoji">
+       <div class="emoji-e">
+         <div class="emoji-m"></div>
+       </div>
+     </div>
+
+    <div class="emoji2">
+      <div class="emoji2-e">
+        <div class="emoji2-m"></div>
+      </div>
+    </div>
+
+    <div class="emoji3">
+      <div class="emoji3-e">
+        <div class="emoji3-m"></div>
+      </div>
+    </div>
+
+    <div class="emoji4">
+      <div class="emoji4-e">
+        <div class="emoji4-m"></div>
+      </div>
+    </div>
+
+    <div class="emoji5">
+      <div class="emoji5-e">
+        <div class="emoji5-m"></div>
+      </div>
+    </div>
+
+    <div class="emoji6">
+      <div class="emoji6-e">
+        <div class="emoji6-m"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
